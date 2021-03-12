@@ -1,5 +1,5 @@
 PODS:
-  - SZPaymentCards (1.0.0)
+  - SZPaymentCards (1.0.1)
 
 DEPENDENCIES:
   - SZPaymentCards (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SZPaymentCards: 1f44dc3d3f31371ff3208bdb5e618f48a29f3446
+  SZPaymentCards: e8be034feec7c35daa6ba20534db678595742d60
 
 PODFILE CHECKSUM: 904ed27f4c7cfaa8c4d8e91b09aacb11b97bcbb2
 
