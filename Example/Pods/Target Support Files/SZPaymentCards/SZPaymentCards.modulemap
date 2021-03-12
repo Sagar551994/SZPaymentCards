@@ -1,0 +1,6 @@
+framework module SZPaymentCards {
+  umbrella header "SZPaymentCards-umbrella.h"
+
+  export *
+  module * { export * }
+}

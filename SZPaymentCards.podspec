@@ -26,19 +26,20 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Sagar551994/SZPaymentCards.git', :tag => s.version.to_s }
   s.social_media_url   = "https://www.instagram.com/mr.iosdeveloper"
 
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "14.0"
+  }
+
   s.ios.deployment_target = '14.0'
 
   s.source_files = 'SZPaymentCards/Classes/**/*'
   
-   s.resource_bundles = {
-     'SZPaymentCards' => ['SZPaymentCards/Images.xcassets']
-   }
+  s.resource_bundles = {
+    'SZPaymentCards' => ['SZPaymentCards/Images.xcassets']
+  }
    
-   s.swift_version = '5.0'
-   s.platforms = {
-       "ios": "14.0"
-   }
-
+   
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

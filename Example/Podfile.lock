@@ -1,0 +1,16 @@
+PODS:
+  - SZPaymentCards (1.0.0)
+
+DEPENDENCIES:
+  - SZPaymentCards (from `../`)
+
+EXTERNAL SOURCES:
+  SZPaymentCards:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SZPaymentCards: 324252a5b575cd4af2cead327c157287832e884d
+
+PODFILE CHECKSUM: 904ed27f4c7cfaa8c4d8e91b09aacb11b97bcbb2
+
+COCOAPODS: 1.10.0
